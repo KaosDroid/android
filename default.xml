@@ -24,6 +24,12 @@
            sync-j="4"
            revision="refs/heads/8.1" />
 
+  <remote  name="kaosdroid"
+           fetch="https://github.com/"
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/8.1" />
+
   <remote name = "gitlab"
            fetch = "https://gitlab.com/" />
 
@@ -591,6 +597,7 @@
 
   <include name="snippets/crdroid.xml" />
   <include name="snippets/lineage.xml" />
+  <include name="snippets/default.xml" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
